@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, ShoppingBag, Heart, Menu, X, Globe } from 'lucide-react';
+import { Search, ShoppingBag, Heart, Menu, X, Globe, User } from 'lucide-react';
 import {
   useCartCount,
   useCurrency,
@@ -228,6 +228,10 @@ export function Header() {
                   )}
                 </AnimatePresence>
               </div>
+
+              <Link href="/account" aria-label="Account" className="p-2.5 hover:text-gold transition-colors">
+                <User className="w-[18px] h-[18px]" strokeWidth={1.5} />
+              </Link>
 
               <Link href="/wishlist" aria-label="Wishlist" className="p-2.5 hover:text-gold transition-colors relative hidden sm:block">
                 <Heart className="w-[18px] h-[18px]" strokeWidth={1.5} />
