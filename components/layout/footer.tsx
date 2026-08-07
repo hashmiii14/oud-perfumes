@@ -105,6 +105,7 @@ export function Footer() {
             <Link href="/faq" className="hover:text-white transition-colors">Terms</Link>
             <Link href="/faq" className="hover:text-white transition-colors">Returns</Link>
             <a href="https://kodeveil.com/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">KodeVeil</a>
+            <a href="https://kodeveil.in/" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">KodeVeil.in</a>
           </div>
           <div className="flex gap-2 items-center text-[10px] tracking-luxury uppercase">
             <span>Visa</span><span>·</span><span>Mastercard</span><span>·</span><span>UPI</span><span>·</span><span>PayPal</span>
